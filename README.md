@@ -1,24 +1,22 @@
 # vueweather
+## Version info
+```
+v0.1 07-27-2020
+```
+## Features Implemented
+### v0.1 Base App
+```
+City searchbar and current conditions
+- Temperature, Feels Like, Weather Condidtion, Wind Speed, Wind Direction, Humidity, Air Pressure, Visibility and Sunrise/Sunset (converted from Unix to PST)
+```
+## Features In progress
+### Convertion to openweathermap one call api
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Features Planned
+### UNIX Convertion to local timezone
+### Display state with city and add recognize states in search
+### Settings Modal
+### Change weather APIs
+### Dynamic background (either satellite or based on weather condidtions)
+### Dynamic text colors (based on temp/condidtions)
+### More details modal (Move extra details such as pressure, visibility, sunrise/sunset, etc)
